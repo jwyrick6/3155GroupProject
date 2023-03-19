@@ -3,8 +3,8 @@
 ## Jordan Wyrick
 
 - **Github Username:** jwyrick6
-- **Niner Net ID:** 801234370
-- **Role: Developer1
+- **Niner Net ID:** jwyrick6
+- **Role:** Developer
 
 ## Daren Daya
 
