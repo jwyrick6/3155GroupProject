@@ -4,7 +4,7 @@
 
 - **Github Username:** jwyrick6
 - **Niner Net ID:** jwyrick6
-- **Role:** Developer
+- **Role:** Developer1
 
 ## Daren Daya
 
@@ -16,8 +16,4 @@
 
 - **Github Username:** electric-sun-20
 - **Niner Net ID:** theideck
-
-## Greg T
-
-- **Github Username:** vvile-film-archives
-- **Niner Net ID:** gturk
+- **Role:**
