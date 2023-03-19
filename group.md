@@ -4,7 +4,7 @@
 
 - **Github Username:** jwyrick6
 - **Niner Net ID:** jwyrick6
-- **Role: Developer
+- **Role: Developer1
 
 ## John Doe
 
