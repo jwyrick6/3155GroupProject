@@ -3,12 +3,12 @@
 ## Jordan Wyrick
 
 - **Github Username:** jwyrick6
-- **Niner Net ID:** jwyrick6
+- **Niner Net ID:** 801234370
 - **Role: Developer1
 
-## John Doe
+## Daren Daya
 
-- **Github Username:** jdoe1
+- **Github Username:** darendaya
 - **Niner Net ID:** jdoe1
 - **Role:** Developer
 
