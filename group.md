@@ -12,8 +12,8 @@
 - **Niner Net ID:** 801234370
 - **Role:** Developer2
 
-## Tim H
+## Dustin Putnam
 
-- **Github Username:** electric-sun-20
-- **Niner Net ID:** theideck
-- **Role:**
+- **Github Username:** dputnam6
+- **Niner Net ID:** 801167768
+- **Role:** Developer3
