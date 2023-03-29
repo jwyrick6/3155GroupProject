@@ -42,7 +42,7 @@ Jordan Wyrick:
 3) ID:REQ-3, Description: create a app file, Type: Functional, Priority: 1, Rationale: important because it will connect the code and will be the skeleton of all code, Testing: should connect all info from user, website, signup info etc.
 
 Daren Daya:
-1) ID:REQ-4, Description: create a catalog repository, Type: Functional, Priority: 1, Rationale: important because it will have a catalog of clubs to join, Testing: should show all options on the website and able to join or request to join.
+1)ID:REQ-4, Description: create a catalog repository, Type: Functional, Priority: 1, Rationale: important because it will have a catalog of clubs to join, Testing: should show all options on the website and able to join or request to join.
 
  2)ID:REQ-5, Description: create a interest repository, Type: Functional, Priority: 2, Rationale: important because it will group people with similar views and beliefs for a club, Testing: should detemrine a match based off similar interests.
 
