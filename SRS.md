@@ -44,9 +44,9 @@ Jordan Wyrick:
 Daren Daya:
 1) ID:REQ-4, Description: create a catalog repository, Type: Functional, Priority: 1, Rationale: important because it will have a catalog of clubs to join, Testing: should show all options on the website and able to join or request to join.
 
-2)ID:REQ-5, Description: create a interest repository, Type: Functional, Priority: 2, Rationale: important because it will group people with similar views and beliefs for a club, Testing: should detemrine a match based off similar interests.
+ 2)ID:REQ-5, Description: create a interest repository, Type: Functional, Priority: 2, Rationale: important because it will group people with similar views and beliefs for a club, Testing: should detemrine a match based off similar interests.
 
-3)ID:REQ-6, Description: create a hybrid/onsite repository, Type: Functional, Priority: 2, Rationale: important because it will show what clubs are in person or online, Testing: Will show what setting this club would meet in and determine what the user wants and show results based off user input.
+ 3)ID:REQ-6, Description: create a hybrid/onsite repository, Type: Functional, Priority: 2, Rationale: important because it will show what clubs are in person or online, Testing: Will show what setting this club would meet in and determine what the user wants and show results based off user input.
 
 1)
 
