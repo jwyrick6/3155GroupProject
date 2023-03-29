@@ -7,7 +7,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 ## Group Members
 
 * [Daren Daya](mmailto:ddaya@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Jordan Wyrick](jwyrick6@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
 ## Revisions
@@ -30,7 +30,7 @@ When a change is made to the document, a new revision should be created. The rev
 6. [Glossary](#glossary)
 
 ## Introduction
-
+For our project, we are wanting to create 
 In this section, you should give a brief overview of what your project will be. Describe the software system you are building and what problems it solves. You should also give a short description of the stakeholders (users of the system) and what their needs are. There is no set formatting requirement, but you should maintain a consistent structure across future sections. Not all members must contribute to this section.
 
 ## Requirements
