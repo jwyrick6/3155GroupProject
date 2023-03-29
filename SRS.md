@@ -42,13 +42,11 @@ Jordan Wyrick:
 3) ID:REQ-3, Description: create a app file, Type: Functional, Priority: 1, Rationale: important because it will connect the code and will be the skeleton of all code, Testing: should connect all info from user, website, signup info etc.
 
 Daren Daya:
-1)
+1) ID:REQ-4, Description: create a catalog repository, Type: Functional, Priority: 1, Rationale: important because it will have a catalog of clubs to join, Testing: should show all options on the website and able to join or request to join.
 
-2)
+2)ID:REQ-5, Description: create a interest repository, Type: Functional, Priority: 2, Rationale: important because it will group people with similar views and beliefs for a club, Testing: should detemrine a match based off similar interests.
 
-3)
-
-Dustin Putnam:
+3)ID:REQ-6, Description: create a hybrid/onsite repository, Type: Functional, Priority: 2, Rationale: important because it will show what clubs are in person or online, Testing: Will show what setting this club would meet in and determine what the user wants and show results based off user input.
 1)
 
 2)
@@ -68,8 +66,8 @@ Jordan Wyrick
 2) Work
 
 Daren Daya:
-1)
-2)
+1)The project will be mainly written in python, but a constraint with that is the design of the page will be in a different language such as CSS or may even have to use HTML, so we are limitied with design features due to python as the main language.
+2) The timeline will be a constraint as it will be due near the time finals start, so getting this done and not waiting until the last minute will be crucial. Finals is very stressful and not having this done before that would add on to stress.
 
 Dustin Putnam:
 1)
@@ -84,7 +82,8 @@ Jordan Wyrick
 2)ID: UC-2, Description: User will sign-up and creaate a account, Actors: Users, Preconditions: user will be given the option  to signup entering a email and a password, Postconditions: user will have a account with the given email.
 
 Daren Daya: 
-
+3. ID: UC-3 Decription: User will be able to see what clubs are offered online and in person. Actors: Users, Preconditions: the user must input what the desired club meeting setting they are looking for, PostConditions: clubs will show based off of the desired user selected club meeting setting.
+4. ID: UC-4 Description: User will select what category club they want to join. Actors: Users, Preconditions: the user must input what kind of category club the user wants to join, PostConditions: the page will display results of clubs selected based off category the user selected.
 
 
 
@@ -105,8 +104,8 @@ Jordan Wyrick:
 2)ID: US-2, Type of User: Student, Description: I want to create a club so I can make new friends so I create a video geama club for other people that like video games.
 
 Daren Daya:
-1)
-2)
+1) ID: US-3, Type of User: Student, Description: I want to see what clubs are online and which ones are in person, I prefer to join a in person basketball club to make new friends and play basketball with them.
+2) ID: US-4, Type of User: Student, Description: I want to see what kind of clubs are online for gaming specifically Call of duty, NBA 2K23, and FIfa 23. I am also open to any in person clubs.
 
 
 Dustin Putnam:
@@ -127,7 +126,7 @@ Jordan Wyrick:
 1) Term: Repository, Definition: computer storage for maintaining data or software packages
 
 Daren Daya:
-1)
+1)Term: CSS, Defintion: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTM
 
 
 Dustin Putnam:
