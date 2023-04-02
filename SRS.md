@@ -38,7 +38,7 @@ For our project, we are wanting to create a website that will able to receieve i
 Jordan Wyrick:
 1) ID:REQ-1, Description: create a user repository, Type: Functional, Priority: 1, Rationale: important because it collects users info, Testing: tested with terminal and see if data is saved.
 2) ID:REQ-2, Description: create a club repository, Type: Functional, Priority: 2, Rationale: importance because it collects the clubs info, Testing: tested with terminal and see if data is saved.
-3) ID:REQ-3, Description: create a app file, Type: Functional, Priority: 1, Rationale: important because it will connect the code and will be the skeleton of all code, Testing: should connect all info from user, website, signup info etc.
+3) ID:REQ-3, Description: create a app file, Type: Functional, Priority: 3, Rationale: important because it will connect the code and will be the skeleton of all code, Testing: should connect all info from user, website, signup info etc.
 
 Daren Daya:
 
