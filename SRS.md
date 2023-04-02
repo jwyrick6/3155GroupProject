@@ -6,7 +6,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 ## Group Members
 
-* [Daren Daya](mmailto:ddaya@uncc.edu)
+* [Daren Daya](ddaya@uncc.edu)
 * [Jordan Wyrick](jwyrick6@uncc.edu)
 * [Dustin Putnam](dputnam6@uncc.edu)
 
