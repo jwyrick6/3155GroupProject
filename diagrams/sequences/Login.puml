@@ -1,5 +1,4 @@
-```plantuml
-@startuml login
+\@startuml login
 actor Users
 boundary "System" as system
 control "Sessions" as sessions
@@ -17,4 +16,3 @@ deactivate sessions
 system -> system: redirect to home page
 deactivate system
 @enduml
-```

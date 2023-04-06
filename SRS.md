@@ -117,4 +117,4 @@ Daren Daya:
 1) Term: CSS, Defintion: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML
 
 Dustin Putnam:
-1)Term: Query, Description: a request for data from a database
+1) Term: Query, Description: a request for data from a database

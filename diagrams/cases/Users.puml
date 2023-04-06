@@ -1,4 +1,3 @@
-```plantuml
 @startuml Users
 left to right direction
 actor Users
@@ -19,4 +18,3 @@ Users --> (Search Clubs)
 Users --> (View Profile)
 Users --> (Logout)
 @enduml
-```
