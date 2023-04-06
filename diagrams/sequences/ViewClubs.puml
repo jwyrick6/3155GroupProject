@@ -1,0 +1,20 @@
+```plantuml
+@startuml login
+actor Users
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+Users -> system: View Clubs
+activate system
+system -> auth: searcg_pipeline(view categorys, seach interest)
+activate auth
+auth --> system: True
+deactivate auth
+system -> sessions: add_new_session(categorize Clubs)
+activate sessions
+sessions --> system: None
+deactivate sessions
+system -> system: redirect to home page
+deactivate system
+@enduml
+```
