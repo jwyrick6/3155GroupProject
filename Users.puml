@@ -1,0 +1,22 @@
+```plantuml
+@startuml Users
+left to right direction
+actor Users
+rectangle "System" as system {
+  (Login)
+  (Register)
+  (View Clubs)
+  (Add Clubs)
+  (Search Clubs)
+  (View Profile)
+  (Logout)
+}
+Users --> (Login)
+Users --> (Register)
+Users --> (View Clubs)
+Users --> (Add Clubs)
+Users --> (Search Clubs)
+Users --> (View Profile)
+Users --> (Logout)
+@enduml
+```
