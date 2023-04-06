@@ -4,13 +4,13 @@ actor Users
 boundary "System" as system
 control "Sessions" as sessions
 control "Authentication" as auth
-Users -> system: View Clubs
+Users -> system: Search Clubs
 activate system
-system -> auth: search_pipeline(view categorys, seach interest)
+system -> auth: search_pipeline(search club name, search club description)
 activate auth
 auth --> system: True
 deactivate auth
-system -> sessions: add_new_session(categorize Clubs)
+system -> sessions: add_new_session(show reults of club search)
 activate sessions
 sessions --> system: None
 deactivate sessions
