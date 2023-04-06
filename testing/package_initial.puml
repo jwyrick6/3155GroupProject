@@ -1,0 +1,54 @@
+@startuml package
+set namespaceSeparator none
+package "Website Testing" {
+    
+  package "UserRepository" {
+    [TestDataPersistence]
+    [TestAddingInfo]
+  }
+
+  package "ClubRepository" {
+    [TestDataPersistence]
+    [TestAddingInfo]
+  }
+
+  package "CatalogRepository" {
+    [TestDataPersistence]
+    [TestShowClubs]
+    [TestRequestToJoin]
+    [TestJoiningClub]
+  }
+
+  package "InterestRepository" {
+    [TestDataPersistence]
+    [TestMatching]
+  }
+
+  package "Hybrid/OnsiteRepository" {
+    [TestDataPersistence]
+    [TestClubSetting]
+    [TestShowResults]
+  }
+
+  package "TagSystem" {
+    [TestDataPersistence]
+    [TestTagCreation]
+    [TestEditTag]
+    [TestTagDeletion]
+  }
+
+  package "ChatSystem" {
+    [TestDataPersistence]
+    [TestTextSaving]
+    [TestEditText]
+    [TestTextDeletion]
+  }
+
+  package "CalendarSystem" {
+    [TestDataPersistence]
+    [TestReminderSaving]
+    [TestEditReminder]
+    [TestReminderDeletion]
+  }
+}
+@enduml

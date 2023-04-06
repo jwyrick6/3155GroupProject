@@ -1,0 +1,13 @@
+@startuml package
+set namespaceSeparator none
+package "Authentication" {
+  [AuthenticationService]
+  [UserRepository]
+  [UserModel]
+  [PasswordHasher]
+  
+  [AuthenticationService] --> [UserRepository]
+  [AuthenticationService] --> [PasswordHasher]
+  [UserRepository] --> [UserModel]
+}
+@enduml
