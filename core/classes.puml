@@ -1,80 +1,101 @@
 @startuml classes
 set namespaceSeparator none
 class User {
-    name: str
-    interests: list[Tag]
-    clubs: list[Club]
-    friends: list[User]
+    __name: str
+    __id: int
+    __interests: list[Tag]
 
-    get_name() -> str
-    set_name(name: str) -> None
+    __init__(self, name: str, id: int) -> None
 
-    get_interests() -> list[Tag]
-    set_interest(interests: list[Tag]) -> None
+    get_name(self) -> str
 
-    get_clubs() -> list[Club]
-    set_clubs(clubs: list[Club]) -> None
+    get_id(self) -> int
 
-    get_friends() -> list[User]
-    set_friends(friends: list[User]) -> None
+    set_name(self, name: str) -> None
+
+    get_interests(self) -> list[Tag]
+
+    add_interest(self, interest: Tag) -> None
 }
 
 class Club {
-    name: str
-    description: str
-    members: int
-    setting: str
-    tags: list[Tag]
-    chat: Chat
-    calendar: Calendar
+    __name: str
+    __description: str
+    __users: list[User]
+    __members: int
+    __setting: str
+    __tags: list[Tag]
+    __chat: Chat
+    __calendar: Calendar
 
-    get_name() -> str
-    set_name(name: str) -> None
-    
-    get_description() -> str
-    set_description(description: str) -> None
 
-    get_members() -> int
-    set_members(members: int) -> None
+    get_name(self) -> str
 
-    get_setting() -> str
-    set_setting(setting: str) -> None
+    set_name(self, name: str) -> None
 
-    get_tags() -> list[Tag]
-    set_tags(tags: list[Tag]) -> None
+    get_description(self) -> str
 
-    get_chat() -> Chat
-    set_chat(chat: Chat) -> None
+    set_description(self, description: str) -> None
 
-    get_calendar() -> Calendar
-    set_calendar(calendar: Calendar) -> None
+    get_users(self) -> list[User]
+
+    add_user(self, user: User) -> None
+
+    get_members(self) -> int
+
+    inc_members(self) -> None
+
+    dec_members(self) -> None
+
+    get_setting(self) -> str
+
+    set_setting(self, setting: str) -> None
+
+    get_tags(self) -> list[Tag]
+
+    add_tags(self, tag: Tag) -> None
+
+    get_chat(self) -> Chat
+
+    get_calendar(self) -> Calendar
 }
 
 class Tag {
-    name: str
+    __name: str
+    __description: str
 
-    get_name() -> str
-    set_name(name: str) -> None
+    __init__(self, name: str, description: str) -> None
+
+    get_name(self) -> str
+
+    set_name(self, name: str) -> None
+    
+    get_description(self) -> str
+
+    set_description(self, description: str) -> None:
 }
 
 class Chat {
-    logs: list[str]
-    users: list[User]
+    logs: dict[int, list[str]]
 
-    get_logs() -> list[str]
-    set_logs(logs: list[str]) -> None
+    __init__(self) -> None
 
-    get_users() -> list[User]
-    set_users(users: list[User]) -> None
-    add_message(message: str, user: User) -> None
+    add_user(self, user_id) -> None
+
+    add_message(self, user_id, message: str) -> None
+
+    get_logs(self) -> dict[int, list[str]]
 }
 
 class Calendar {
-    reminders: list[str]
+    reminders: dict[str, list[str]]
 
-    get_reminders() -> list[str]
-    set_reminders(reminders: list[str]) -> None
-    add_reminder(reminder: str) -> None
-    remove_reminder(reminder: str) -> None
+    __init__(self) -> None
+
+    get_reminders(self) -> dict[str, list[str]]
+
+    add_reminder(self, date: str, reminder: str) -> None
+
+    remove_reminders(self, date: str) -> None
 }
 @enduml
