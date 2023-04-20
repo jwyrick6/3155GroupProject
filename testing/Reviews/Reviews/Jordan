@@ -1,0 +1,1 @@
+Tested several files, first one was the app.py I just created, seems to run fine but not doing excatly what I want it to, but it is the V1 so I will be able to fix it soon. Tested the club_repository and user_repository, both work good. Also tested the models.py and it seems to run fine but likeapp.py, not doing excatly what I want it to, will have to fix it.
