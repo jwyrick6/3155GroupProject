@@ -1,1 +1,1 @@
-I tested all of the funcions across ever class in the core.py file. All of the tests are in the core_tests.py file. I couldn't get the file to run in heproject, but I was able to take the core.py and core_tests.py somewhere and run them. All of the tests passed.
+I tested all of the funcions across every class in the core.py file. All of the tests are in the core_tests.py file. I couldn't get the file to run in the project, but I was able to take the core.py and core_tests.py somewhere else and run them. All of the tests passed.
