@@ -20,10 +20,10 @@ class Tag:
 
 
 class Chat:
-    logs: dict[int, list[str]] = None
+    logs: dict[int, list[str]]
 
     def __init__(self) -> None:
-        pass
+        self.logs = {}
 
     def add_user(self, user_id) -> None:
         self.logs[user_id] = []
@@ -36,7 +36,7 @@ class Chat:
 
 
 class Calendar:
-    reminders: dict[str, list[str]]
+    reminders: dict[str, list[str]] = {}
 
     def __init__(self) -> None:
         pass
@@ -45,7 +45,10 @@ class Calendar:
         return self.reminders
 
     def add_reminder(self, date: str, reminder: str) -> None:
-        self.reminders[date] = [reminder]
+        if date in self.reminders.keys():
+            self.reminders[date].append(reminder)
+        else:
+            self.reminders[date] = [reminder]
 
     def remove_reminders(self, date: str) -> None:
         del self.reminders[date]
@@ -54,7 +57,7 @@ class Calendar:
 class User:
     __name: str
     __id: int
-    __interests: list[Tag]
+    __interests: list[Tag] = []
 
     def __init__(self, name: str, id: int) -> None:
         self.__name = name
@@ -87,6 +90,15 @@ class Club:
     __chat: Chat
     __calendar: Calendar
 
+    def __init__(self, name: str, setting: str) -> None:
+        self.__name = name
+        self.__setting = setting
+        self.__description: str = ""
+        self.__users: list[User] =[]
+        self.__members: int = 0
+        self.__tags: list[Tag] = []
+        self.__chat: Chat = Chat()
+        self.__calendar: Calendar = Calendar()
 
     def get_name(self) -> str:
         return self.__name
